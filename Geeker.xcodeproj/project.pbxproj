@@ -19,6 +19,10 @@
 		EACFA89F27656F9800D2D3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACFA87427656F9800D2D3AE /* Assets.xcassets */; };
 		EACFA8AF2767485500D2D3AE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACFA8AE2767485500D2D3AE /* MenuView.swift */; };
 		EACFA8B02767485500D2D3AE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACFA8AE2767485500D2D3AE /* MenuView.swift */; };
+		EAE5C1112767AEC700D80623 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5C1102767AEC700D80623 /* Home.swift */; };
+		EAE5C1122767AEC700D80623 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5C1102767AEC700D80623 /* Home.swift */; };
+		EAE5C114276829F400D80623 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5C113276829F400D80623 /* HomeView.swift */; };
+		EAE5C115276829F400D80623 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5C113276829F400D80623 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,8 @@
 		EACFA89627656F9800D2D3AE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EACFA89827656F9800D2D3AE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		EACFA8AE2767485500D2D3AE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EAE5C1102767AEC700D80623 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EAE5C113276829F400D80623 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 			children = (
 				EACFA87227656F9800D2D3AE /* GeekerApp.swift */,
 				EACFA87327656F9800D2D3AE /* ContentView.swift */,
+				EAE5C1102767AEC700D80623 /* Home.swift */,
+				EAE5C113276829F400D80623 /* HomeView.swift */,
 				EACFA8AE2767485500D2D3AE /* MenuView.swift */,
 				EACFA87427656F9800D2D3AE /* Assets.xcassets */,
 			);
@@ -305,6 +313,8 @@
 			files = (
 				EACFA89C27656F9800D2D3AE /* ContentView.swift in Sources */,
 				EACFA8AF2767485500D2D3AE /* MenuView.swift in Sources */,
+				EAE5C1112767AEC700D80623 /* Home.swift in Sources */,
+				EAE5C114276829F400D80623 /* HomeView.swift in Sources */,
 				EACFA89A27656F9800D2D3AE /* GeekerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +325,8 @@
 			files = (
 				EACFA89D27656F9800D2D3AE /* ContentView.swift in Sources */,
 				EACFA8B02767485500D2D3AE /* MenuView.swift in Sources */,
+				EAE5C1122767AEC700D80623 /* Home.swift in Sources */,
+				EAE5C115276829F400D80623 /* HomeView.swift in Sources */,
 				EACFA89B27656F9800D2D3AE /* GeekerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
