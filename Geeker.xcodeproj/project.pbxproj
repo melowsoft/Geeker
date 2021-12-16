@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4E412F27693A5200273D99 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E412E27693A5200273D99 /* UpdateList.swift */; };
+		EA4E413027693A5200273D99 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E412E27693A5200273D99 /* UpdateList.swift */; };
+		EA4E4132276940BD00273D99 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4131276940BD00273D99 /* UpdateDetail.swift */; };
+		EA4E4133276940BD00273D99 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4131276940BD00273D99 /* UpdateDetail.swift */; };
+		EA4E4135276BDA0900273D99 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4134276BDA0900273D99 /* UpdateStore.swift */; };
+		EA4E4136276BDA0900273D99 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4134276BDA0900273D99 /* UpdateStore.swift */; };
+		EA6FF965276BE29000278A48 /* TapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6FF964276BE29000278A48 /* TapBar.swift */; };
+		EA6FF966276BE29000278A48 /* TapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6FF964276BE29000278A48 /* TapBar.swift */; };
 		EACFA88B27656F9800D2D3AE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACFA88A27656F9800D2D3AE /* Tests_iOS.swift */; };
 		EACFA88D27656F9800D2D3AE /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACFA88C27656F9800D2D3AE /* Tests_iOSLaunchTests.swift */; };
 		EACFA89727656F9800D2D3AE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACFA89627656F9800D2D3AE /* Tests_macOS.swift */; };
@@ -43,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA4E412E27693A5200273D99 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		EA4E4131276940BD00273D99 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		EA4E4134276BDA0900273D99 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		EA6FF964276BE29000278A48 /* TapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBar.swift; sourceTree = "<group>"; };
 		EACFA87227656F9800D2D3AE /* GeekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeekerApp.swift; sourceTree = "<group>"; };
 		EACFA87327656F9800D2D3AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EACFA87427656F9800D2D3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +122,10 @@
 				EACFA87327656F9800D2D3AE /* ContentView.swift */,
 				EAE5C1102767AEC700D80623 /* Home.swift */,
 				EAE5C113276829F400D80623 /* HomeView.swift */,
+				EA4E412E27693A5200273D99 /* UpdateList.swift */,
+				EA4E4131276940BD00273D99 /* UpdateDetail.swift */,
+				EA4E4134276BDA0900273D99 /* UpdateStore.swift */,
+				EA6FF964276BE29000278A48 /* TapBar.swift */,
 				EACFA8AE2767485500D2D3AE /* MenuView.swift */,
 				EACFA87427656F9800D2D3AE /* Assets.xcassets */,
 			);
@@ -311,8 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4E4132276940BD00273D99 /* UpdateDetail.swift in Sources */,
 				EACFA89C27656F9800D2D3AE /* ContentView.swift in Sources */,
 				EACFA8AF2767485500D2D3AE /* MenuView.swift in Sources */,
+				EA6FF965276BE29000278A48 /* TapBar.swift in Sources */,
+				EA4E412F27693A5200273D99 /* UpdateList.swift in Sources */,
+				EA4E4135276BDA0900273D99 /* UpdateStore.swift in Sources */,
 				EAE5C1112767AEC700D80623 /* Home.swift in Sources */,
 				EAE5C114276829F400D80623 /* HomeView.swift in Sources */,
 				EACFA89A27656F9800D2D3AE /* GeekerApp.swift in Sources */,
@@ -323,8 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4E4133276940BD00273D99 /* UpdateDetail.swift in Sources */,
 				EACFA89D27656F9800D2D3AE /* ContentView.swift in Sources */,
 				EACFA8B02767485500D2D3AE /* MenuView.swift in Sources */,
+				EA6FF966276BE29000278A48 /* TapBar.swift in Sources */,
+				EA4E413027693A5200273D99 /* UpdateList.swift in Sources */,
+				EA4E4136276BDA0900273D99 /* UpdateStore.swift in Sources */,
 				EAE5C1122767AEC700D80623 /* Home.swift in Sources */,
 				EAE5C115276829F400D80623 /* HomeView.swift in Sources */,
 				EACFA89B27656F9800D2D3AE /* GeekerApp.swift in Sources */,
